@@ -1,0 +1,23 @@
+{
+  "name": "github-angular-project-to-stackblitz",
+  "version": "1.0.0",
+  "description": "將存放在 GitHub 上的 Angular CLI 專案，移轉至 StackBlitz 線上快速執行",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs --compress --mangle -o dist/bookmarklet.min.js src/bookmarklet.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poychang/Github-Angular-CLI-Project-To-StackBlitz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poychang/Github-Angular-CLI-Project-To-StackBlitz/issues"
+  },
+  "homepage": "https://github.com/poychang/Github-Angular-CLI-Project-To-StackBlitz/#readme",
+  "dependencies": {
+    "uglify-js": "^3.0.28"
+  }
+}
