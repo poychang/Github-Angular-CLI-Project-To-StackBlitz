@@ -19,3 +19,10 @@
 ```js
 javascript:!function(){location.hostname.toLowerCase();var t=location.href;location.pathname;t.indexOf("//github.com/")>=0&&(location.href=t.replace(/github\.com/i,"stackblitz.com/github")),t.indexOf("//stackblitz.com/github/")>=0&&(location.href=t.replace(/stackblitz\.com\/github/i,"github.com"))}();
 ```
+
+## 測試方式
+
+1. 開啟 GitHub 上面的 Angular CLI Demo 專案 [https://github.com/aveferrum/angular-material-demo](https://github.com/aveferrum/angular-material-demo)
+2. 點選上面安裝方式所建立的 **Angular-StackBlitz** 書籤
+3. 網站就會轉換成 [https://stackblitz.com/github/aveferrum/angular-material-demo](https://stackblitz.com/github/aveferrum/angular-material-demo)
+4. 反之亦然
