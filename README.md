@@ -17,7 +17,7 @@
 
 
 ```js
-javascript:!function(){location.hostname.toLowerCase();var t=location.href;location.pathname;t.indexOf("//github.com/")>=0&&(location.href=t.replace(/github\.com/i,"stackblitz.com/github")),t.indexOf("//stackblitz.com/github/")>=0&&(location.href=t.replace(/stackblitz\.com\/github/i,"github.com"))}();
+javascript:!function(){location.hostname.toLowerCase();var t=location.href;location.pathname;t.indexOf("//github.com/")>=0&&(location.href=t.replace(/github\.com/i,"stackblitz.com/github")),t.indexOf("//stackblitz.com/github/")>=0&&(location.href=t.replace(/stackblitz\.com\/github/i,"github.com")),location.href="https://stackblitz.com/"}();
 ```
 
 ## 測試方式
